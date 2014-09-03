@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <TargetExt>.arx</TargetExt>
+    <IncludePath>C:\ObjectARX 2013\inc-$(PlatformName);C:\ObjectARX 2013\inc;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\ObjectARX 2013\lib-$(PlatformName);$(LibraryPath)</LibraryPath>
+    <_PropertySheetDisplayName>Arx2013</_PropertySheetDisplayName>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalDependencies>accore.lib;ac1st19.lib</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>
